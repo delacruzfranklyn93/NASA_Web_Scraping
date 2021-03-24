@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Greetings Earthling</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <style>
+    /* body  {
+  background-image: url("https://specials-images.forbesimg.com/imageserve/5f53fbab099efa47007b0912/960x0.jpg?fit=scale");
+  background-color: #cccccc;
+  height: 400px;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  position: relative;
+} */
+
+body {
+  background: url('https://specials-images.forbesimg.com/imageserve/5f53fbab099efa47007b0912/960x0.jpg?fit=scale') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+  </style>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="jumbotron text-center" style = "background-color: transparent">
+      <h1 style = 'color :whitesmoke'>Mission to Mars</h1>
+      <p><a class="btn btn-primary btn-lg" href="/scrape" role="button">Scrape New Data</a></p>
+    </div>
+    <h2 style = 'color :whitesmoke'><u><strong>Latest Mars News</u></h2></strong>
+    <h3 style = 'color :whitesmoke'><strong>{{mars[4].news_title}}</strong></h3>
+    <h4 style = 'color :whitesmoke'>{{mars[5].news_p}}</h4>
+    <br>
+  </div>
+
+  <div class= "row">
+    <div class = 'col-md-7'>
+      <div class = "box-container" style = "padding-left: 18px;">
+        <h2 style = 'color :whitesmoke'><u><strong>Feature Mars Image</h2></u></strong>
+        <img  width = "100%" src = "{{mars[6].featured_image_url}}" alt = 'dust cloud'>
+      </div>
+    </div>
+    
+    <div class = 'col-md-4'>
+      <div class = "box-container" style = "background-color: cornsilk">
+        <h2>Mars Facts</h2>
+        {{mars[7].mars_facts | safe}}
+      </div>
+    </div>
+    <div class = "row" >
+      <div class = "col-md-12">
+      <div class="box-container" style = "background-color: transparent">
+          <div class = "row" >
+            <h2 style = 'color :whitesmoke' align = "center">Mars Hemispheres</h2>
+            <div class = "col-md=1"></div>
+            <br>
+              <div class = col-md-6 align = "center">
+                  <img src="{{mars[0].img_url}}" alt="Max temp" width = "90%">
+                  <h2 style = 'color :whitesmoke'>{{mars[0].title}}</h2>
+              </div>
+              <div class = col-md-6 align = "center">
+                <img src="{{mars[1].img_url}}" alt="Max temp" width = "90%">
+                <h2 style = 'color :whitesmoke'>{{mars[1].title}}</h2>
+            </div>
+          <br>
+          <br>
+          <div class = col-md-6 align = "center">
+            <img src="{{mars[2].img_url}}" alt="Max temp" width = "90%">
+            <h2 style = 'color :whitesmoke'>{{mars[2].title}}</h2>
+        </div>
+        <div class = col-md-6 align = "center">
+          <img src="{{mars[3].img_url}}" alt="Max temp" width = "90%">
+          <h2 style = 'color :whitesmoke'>{{mars[3].title}}</h2>
+      </div>
+        </div>
+      </div>
+      </div>
+
+
+  </div>
+  
+</body>
+
+</html>
