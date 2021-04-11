@@ -5,7 +5,7 @@
 ## Steps: 
    1)	The first step was to create a python script that would scrape the various websites for new information when the “Scrape New Data” button was clicked. To do this I first           used a splinter browser to visit the URL and then used beautiful soup to find the certain html element that contained the data and extracted it and stored it into a               dictionary that contained all my NASA information.  All of this is done within my scrape_mars.py script.
 
-   2)	I then created a connection to MongoDB using PyMongo and stored my data in a new collection. I then retrieved the data from the collection and inserted it into the html           using render_template from the flask library. Every time the “Scrape New Button” is selected, these 2 steps would run so that we get all the new information from all the            websites I scraped. 
+   2)	I then created a connection to MongoDB using PyMongo and stored my data in a new collection. I then retrieved the data from the collection and inserted it into the html           using render_template from the flask library. Every time the “Scrape New Button” is selected, these 2 steps would run so that we get all the new information from all the            websites scrape_mars.py scraped. 
 
 Tools Used: Flask, render_template, PyMongo, Beautiful Soup, Splinter, Pandas, MongoDB
 
