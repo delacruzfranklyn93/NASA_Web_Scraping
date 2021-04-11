@@ -85,14 +85,10 @@ def scrape():
 
         tables.columns = ['description', 'mars']
         table_html = tables.to_html(index = False, classes = "table table-striped")
-        #     text_file = open('table.html', 'w')
-        #     text_file.write(table_html) 
-        #     text_file.close() 
-
-
+      
         # In[19]:
 
-
+        # create a for loop to retrive the images for each hemisphere. 
         hemisphere_image_urls = []
         for x in range(4):
                 url3 = 'https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars'
