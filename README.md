@@ -15,8 +15,6 @@ https://data-class-jpl-space.s3.amazonaws.com/JPL_Space/index.html
 
 https://mars.nasa.gov/news
 
-https://data-class-jpl-space.s3.amazonaws.com/JPL_Space/index.html
-
 https://space-facts.com/mars/
 
 https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars
