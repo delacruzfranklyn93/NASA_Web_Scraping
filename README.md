@@ -7,14 +7,15 @@
 
    2)	I then created a connection to MongoDB using PyMongo and stored my data in a new collection. I then retrieved the data from the collection and inserted it into the html           using render_template from the flask library. Every time the “Scrape New Button” is selected, these 2 steps would run so that we get all the new information from all the            websites I scraped. 
 
-Tools Used: Flask, render_template, PyMongo, Beautiful Soup, Splinter, Pandas, MongoDB
+### Tools Used: Flask, render_template, PyMongo, Beautiful Soup, Splinter, Pandas, MongoDB
 
-Websites Scraped:
-    - https://data-class-jpl-space.s3.amazonaws.com/JPL_Space/index.html
-    - https://mars.nasa.gov/news
-    - https://data-class-jpl-space.s3.amazonaws.com/JPL_Space/
-    - https://space-facts.com/mars/
-    - https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars
+### Websites Scraped:
+
+https://data-class-jpl-space.s3.amazonaws.com/JPL_Space/index.html
+https://mars.nasa.gov/news
+https://data-class-jpl-space.s3.amazonaws.com/JPL_Space/
+https://space-facts.com/mars/
+https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars
     
    ![image](https://user-images.githubusercontent.com/63375741/114313466-a3f5e200-9ac4-11eb-8e65-a0a8e20d99f1.png)
 
