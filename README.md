@@ -10,11 +10,11 @@
 Tools Used: Flask, render_template, PyMongo, Beautiful Soup, Splinter, Pandas, MongoDB
 
 Websites Scraped:
-    [https://data-class-jpl-space.s3.amazonaws.com/JPL_Space/index.html]
-    [https://mars.nasa.gov/news]
-    [https://data-class-jpl-space.s3.amazonaws.com/JPL_Space/]
-    [https://space-facts.com/mars/]
-    [https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars]
+    - https://data-class-jpl-space.s3.amazonaws.com/JPL_Space/index.html
+    - https://mars.nasa.gov/news
+    - https://data-class-jpl-space.s3.amazonaws.com/JPL_Space/
+    - https://space-facts.com/mars/
+    - https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars
     
    ![image](https://user-images.githubusercontent.com/63375741/114313466-a3f5e200-9ac4-11eb-8e65-a0a8e20d99f1.png)
 
