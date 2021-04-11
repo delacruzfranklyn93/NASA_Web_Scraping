@@ -9,13 +9,13 @@
 
 Tools Used: Flask, render_template, PyMongo, Beautiful Soup, Splinter, Pandas, MongoDB
 
-Websites Scraped:
+### Websites Scraped:
 
 https://data-class-jpl-space.s3.amazonaws.com/JPL_Space/index.html
 
 https://mars.nasa.gov/news
 
-https://data-class-jpl-space.s3.amazonaws.com/JPL_Space/
+https://data-class-jpl-space.s3.amazonaws.com/JPL_Space/index.html
 
 https://space-facts.com/mars/
 
